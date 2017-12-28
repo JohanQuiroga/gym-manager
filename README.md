@@ -7,7 +7,7 @@ The GYM-Manager system is a web application that allows the administration of a 
 1. Clone this repo with `git clone https://github.com/JohanQuiroga/gym-manager.git`
 1. On project folder run `composer install`
 1. Create and setup the database that will be used
-1. Create `.env` file
+1. Create `.env` file with `cp .env.example .env`
 1. Set needed environment variables on `.env`. Be careful to set the correct Database information.
 1. On project folder run `php artisan migrate`
 
